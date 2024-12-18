@@ -4,7 +4,7 @@ import { HomeIcon, NotebookIcon } from "lucide-react";
 export const DATA = {
   name: "Sharique Chaudhary",
   initials: "SC",
-  url: "",
+  url: "www.google.com",
   location: "Mumbai , India",
   locationLink: "https://www.google.com/maps/place/mumbai",
   description:
