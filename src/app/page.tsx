@@ -106,22 +106,27 @@ export default function Page() {
           </BlurFade>
           <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 max-w-[800px] mx-auto">
             {DATA.projects.map((project, id) => (
-              <BlurFade
+              <div
                 key={project.title}
-                delay={BLUR_FADE_DELAY * 12 + id * 0.05}
+                className="transition-transform duration-300 ease-in-out hover:-translate-y-2"
               >
-                <ProjectCard
-                  href={project.href}
+                <BlurFade
                   key={project.title}
-                  title={project.title}
-                  description={project.description}
-                  dates={project.dates}
-                  tags={project.technologies}
-                  image={project.image}
-                  video={project.video}
-                  links={project.links}
-                />
-              </BlurFade>
+                  delay={BLUR_FADE_DELAY * 12 + id * 0.05}
+                >
+                  <ProjectCard
+                    href={project.href}
+                    key={project.title}
+                    title={project.title}
+                    description={project.description}
+                    dates={project.dates}
+                    tags={project.technologies}
+                    image={project.image}
+                    video={project.video}
+                    links={project.links}
+                  />
+                </BlurFade>
+              </div>
             ))}
           </div>
         </div>

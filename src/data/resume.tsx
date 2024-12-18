@@ -17,8 +17,9 @@ export const DATA = {
     "Next.js",
     "Typescript",
     "Node.js",
-    "Express",
+    "ExpressJS",
     "TailwindCSS",
+    "MongoDB",
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
