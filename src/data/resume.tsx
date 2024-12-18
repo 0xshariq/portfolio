@@ -3,7 +3,7 @@ import { HomeIcon, NotebookIcon } from "lucide-react";
 
 export const DATA = {
   name: "Sharique Chaudhary",
-  initials: "DV",
+  initials: "SC",
   url: "",
   location: "Mumbai , India",
   locationLink: "https://www.google.com/maps/place/mumbai",
@@ -73,7 +73,7 @@ export const DATA = {
       dates: "Oct - 2024",
       active: true,
       description:
-        "With the release of the [OpenAI GPT Store](https://openai.com/blog/introducing-the-gpt-store), I decided to build a SaaS which allows users to collect email addresses from their GPT users. This is a great way to build an audience and monetize your GPT API usage.",
+        "Developed a Quran app with a beautiful UI and a lot of features.",
       technologies: [
         "Next.js",
         "Typescript",
@@ -86,104 +86,100 @@ export const DATA = {
           href: "https://quran-next-app.vercel.app/",
           icon: <Icons.globe className="size-3" />,
         },
+        {
+          type: "Source",
+          href: "https://github.com/0xshariq/quran-next-app",
+          icon: <Icons.github className="size-3" />,
+        },
       ],
-      image: "",
+      image: "/quran.png",
       video:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
+        "",
     },
     {
-      title: "Magic UI",
-      href: "https://magicui.design",
-      dates: "June 2023 - Present",
+      title: "Extra Care Medical Center",
+      href: "https://hospital-website-ashy-eight.vercel.app",
+      dates: "Sept 2024",
       active: true,
       description:
-        "Designed, developed and sold animated UI components for developers.",
+        "Developed a website for a medical center.",
       technologies: [
         "Next.js",
         "Typescript",
-        "PostgreSQL",
-        "Prisma",
         "TailwindCSS",
-        "Stripe",
-        "Shadcn UI",
-        "Magic UI",
+        "Shadcn UI"
       ],
       links: [
         {
           type: "Website",
-          href: "https://magicui.design",
+          href: "https://hospital-website-ashy-eight.vercel.app",
           icon: <Icons.globe className="size-3" />,
         },
         {
           type: "Source",
-          href: "https://github.com/magicuidesign/magicui",
+          href: "https://github.com/0xshariq/extra-care-medical-center",
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "",
-      video: "https://cdn.magicui.design/bento-grid.mp4",
+      image: "/medical-center.png",
+      video: "",
     },
     {
-      title: "llm.report",
-      href: "https://llm.report",
+      title: "Service Website",
+      href: "https://service-website-cyan.vercel.app",
       dates: "April 2023 - September 2023",
       active: true,
       description:
-        "Developed an open-source logging and analytics platform for OpenAI: Log your ChatGPT API requests, analyze costs, and improve your prompts.",
+        "Service website for a company.",
       technologies: [
         "Next.js",
         "Typescript",
-        "PostgreSQL",
-        "Prisma",
         "TailwindCSS",
-        "Shadcn UI",
-        "Magic UI",
-        "Stripe",
-        "Cloudflare Workers",
+        "Shadcn UI"
       ],
       links: [
         {
           type: "Website",
-          href: "https://llm.report",
+          href: "https://service-website-cyan.vercel.app",
           icon: <Icons.globe className="size-3" />,
         },
         {
           type: "Source",
-          href: "https://github.com/dillionverma/llm.report",
+          href: "https://github.com/0xshariq/service-website",
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "",
-      video: "https://cdn.llm.report/openai-demo.mp4",
+      image: "/service.png",
+      video: "",
     },
     {
-      title: "Automatic Chat",
-      href: "https://automatic.chat",
-      dates: "April 2023 - March 2024",
+      title: "Music School Website",
+      href: "https://music-school-app-two.vercel.app",
+      dates: "Oct 2024",
       active: true,
       description:
-        "Developed an AI Customer Support Chatbot which automatically responds to customer support tickets using the latest GPT models.",
+        "Music school website.",
       technologies: [
         "Next.js",
         "Typescript",
-        "PostgreSQL",
-        "Prisma",
         "TailwindCSS",
         "Shadcn UI",
-        "Magic UI",
-        "Stripe",
-        "Cloudflare Workers",
+        "Aceternity UI"
       ],
       links: [
         {
           type: "Website",
-          href: "https://automatic.chat",
+          href: "https://music-school-app-two.vercel.app",
           icon: <Icons.globe className="size-3" />,
         },
+        {
+          type: "Source",
+          href: "https://github.com/0xshariq/Music_School_App",
+          icon: <Icons.github className="size-3" />,
+        },
       ],
-      image: "",
-      video:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
-    },
+      image: "/music-school.png",
+      video: "",
+    }
   ]
 } as const;
