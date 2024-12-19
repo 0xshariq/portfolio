@@ -13,10 +13,10 @@ export const DATA = {
   "I am a software engineer who loves to build web applications. I have experience in building web applications using React, Next.js, and Node.js. I am always eager to learn new technologies and improve my skills. I am a quick learner and a team player. I am always ready to take on new challenges and solve problems.",
   avatarUrl: "/me.jpeg",
   skills: [
-    "React",
-    "Next.js",
+    "ReactJS",
+    "NextJS",
     "Typescript",
-    "Node.js",
+    "NodeJS",
     "ExpressJS",
     "TailwindCSS",
     "MongoDB",
