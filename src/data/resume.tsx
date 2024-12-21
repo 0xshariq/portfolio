@@ -8,9 +8,9 @@ export const DATA = {
   location: "Mumbai , India",
   locationLink: "https://www.google.com/maps/place/mumbai",
   description:
-    "A Learning Software Engineer",
+    "Future Full Stack Developer",
   summary:
-  "I am a software engineer who loves to build web applications. I have experience in building web applications using React, Next.js, and Node.js. I am always eager to learn new technologies and improve my skills. I am a quick learner and a team player. I am always ready to take on new challenges and solve problems.",
+  "I am a software engineer who loves to build web applications. I have experience in building web applications using React, Next.js, and Node.js. I am always eager to learn new technologies and improve my skills. I am a quick learner and a team player. I am always ready to take on new challenges and solve problems.Almost Master In Front-End Development.Now,I am learning Back-End Development",
   avatarUrl: "/me.jpeg",
   skills: [
     "ReactJS",
